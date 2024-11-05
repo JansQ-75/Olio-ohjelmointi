@@ -35,52 +35,52 @@ Tehtävässä harjoitellaan luokkien ja olioiden käyttöä.
 **Ensimmäisessä vaiheessa luodaan Car -luokka ja Car -olio tehdään pinomuistiin**
 
 Jäsenmuuttujat:
-    - Merkki, malli, vuosimalli.
+- Merkki, malli, vuosimalli.
 
 Metodit:
-    - Setterit jäsenmuuttujille
-    - Funktio "printData", jolla voidaan tulostaa auton tiedot.
+- Setterit jäsenmuuttujille
+- Funktio "printData", jolla voidaan tulostaa auton tiedot.
 
 **Toisessa vaiheessa luodaan Rectangle -luokka ja Rectangle -olio tehdään kekomuistiin pointter-oliona**
 
 Jäsenmuuttujat:
-    - leveys, korkeus
+- leveys, korkeus
 
 Metodit:
-    - Setterit jäsenmuuttujille
-    - Funktio suorakulmion pinta-alaa varten, palautusarvona pinta-ala
-    - Funktio suorakulmion ympärysmittaa varten, palautusarvona ympärysmitta
+- Setterit jäsenmuuttujille
+- Funktio suorakulmion pinta-alaa varten, palautusarvona pinta-ala
+- Funktio suorakulmion ympärysmittaa varten, palautusarvona ympärysmitta
 
 **Kolmannessa vaiheessa luodaan Student -luokka ja Student -olio tehdään kekomuistiin smartpointter-oliona**
 
 Jäsenmuuttujat:
-    - nimi, opiskelijanumero, keskiarvo
+- nimi, opiskelijanumero, keskiarvo
 
 Metodit:
-    - Setterit jäsenmuuttujille
-    - Getterit jäsenmuuttujille
+- Setterit jäsenmuuttujille
+- Getterit jäsenmuuttujille
 
 **Main -koodissa luodaan neljä oliota**
 
 Car -olio pinomuistiin.
-    - Settereiden avulla annetaan tiedot autolle
-    - Tulostetaan auton tiedot luokan metodeissa olevalla funktiolla
-    - Olio poistuu automaattisesti
+- Settereiden avulla annetaan tiedot autolle
+- Tulostetaan auton tiedot luokan metodeissa olevalla funktiolla
+- Olio poistuu automaattisesti
 
 Rectangle -olio kekomuistiin, pointter-oliona
-    - Settereiden avulla annetaan suorakulmion leveys ja korkeus
-    - Tulostetaan suorakulmion pinta-ala ja ympärysmitta metodeissa olevien funktioita hyödyntäen
-    - Poistetaan olio koodissa
+- Settereiden avulla annetaan suorakulmion leveys ja korkeus
+- Tulostetaan suorakulmion pinta-ala ja ympärysmitta metodeissa olevien funktioita hyödyntäen
+- Poistetaan olio koodissa
 
 Rectangle -olio kekomuistiin, pointter-oliona
-    - Oliolle annetaan muodostimen parametreina valmiiksi suorakulmion leveys ja korkeus
-    - Tulostetaan suorakulmion pinta-ala ja ympärysmitta metodeissa olevien funktioita hyödyntäen
-    - Poistetaan olio koodissa
+- Oliolle annetaan muodostimen parametreina valmiiksi suorakulmion leveys ja korkeus
+- Tulostetaan suorakulmion pinta-ala ja ympärysmitta metodeissa olevien funktioita hyödyntäen
+- Poistetaan olio koodissa
 
 Student -olio kekomuistiin, smartpointter -oliona
-    - Settereiden avulla annetaan opiskelijalle nimi, opiskelijanumero ja keskiarvo
-    - Tulostetaan opiskelijan tiedot Gettereiden avulla
-    - Olio poistuu tuhoajan avulla
+- Settereiden avulla annetaan opiskelijalle nimi, opiskelijanumero ja keskiarvo
+- Tulostetaan opiskelijan tiedot Gettereiden avulla
+- Olio poistuu tuhoajan avulla
 
 
 
