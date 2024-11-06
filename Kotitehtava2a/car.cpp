@@ -22,6 +22,11 @@ void Car::setYearModel(int newYearModel)
 Car::Car() {}
 
 // Tulostaa auton tiedot
+Car::Car(string, string, string)
+{
+
+}
+
 void Car::printData()
 {
     cout<<"Information about the Car"<<endl;
