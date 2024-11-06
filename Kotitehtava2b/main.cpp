@@ -6,12 +6,6 @@
 
 using namespace std;
 
-/*Luo vektori nimeltään carList. (Luo lista pinoon. Et siis tarvitse smart pointteria.)
-Luo kolme Car-luokan oliota (keksi itse merkit, mallit ja vuosimallit)
-Lisää oliot listaan.
-Tulosta listan toisen alkion tiedot.
-Tulosta kaikkien autojen tiedot käyttämällä for-silmukkaa*/
-
 int main()
 {
     // luodaan vektori, lista luodaan pinomuistiin
