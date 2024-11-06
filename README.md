@@ -82,5 +82,37 @@ Student -olio kekomuistiin, smartpointter -oliona
 - Tulostetaan opiskelijan tiedot Gettereiden avulla
 - Olio poistuu tuhoajan avulla
 
+## Kotitehtävä2b
+
+Tässä tehtävässä tutustutaan C++ ohjelmoinnin käsitteeseen vektori ja kuinka sitä käyttäen luodaan ns. oliolista
+
+**Luodaan luokka Car**
+
+Jäsenmuuttujat:
+- Merkki, malli, vuosimalli.
+
+Metodit:
+- "Car" muodostin, jossa auton tiedot annetaan parametreissa
+- Funktio "printData", jolla voidaan tulostaa auton tiedot.
+
+**Main -koodi**
+
+Luodaan vektori nimeltä "carList", lista luodaan pinomuistiin
+- luodaan 3 Car luokan oliota, tiedot annetaan parametreissa
+- Lisätään oliot "carList" listaan
+- Tulostetaan listan toisen alkion tiedot
+- Tulostetaan kaikkien autojen tiedot for-silmukkaa käyttäen
+
+Lisätehtävänä
+
+Luodaan vektori nimeltä "carList2", lista luodaan kekomuistiin smartpointterina
+- luodaan 3 Car luokan oliota, tiedot annetaan parametreissa
+- Lisätään oliot "carList2" listaan
+- Haetaan lista carList2 -osoittimesta
+- Tulostetaan kaikkien autojen tiedot for-silmukkaa käyttäen. Käytetään tulostuksessa listan elementtiä 'cars'.
+
+
+
+
 
 

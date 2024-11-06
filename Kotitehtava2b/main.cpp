@@ -39,7 +39,7 @@ int main()
     // luodaan vektori, lista luodaan kekomuisiin smartpointterina
     unique_ptr<vector<Car>> carList2 = make_unique<vector<Car>>();
 
-    // lisätään oliot listaan
+    // luodaan kolme oliota
     Car objCar4("Toyota", "Corolla", 2020);
     Car objCar5("Volvo", "V60", 2009);
     Car objCar6("Opel", "Astra", 2015);
