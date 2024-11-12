@@ -28,6 +28,8 @@ Tehtävää varten luotiin neljä funktiota:
 Main -koodissa kysytään käyttäjältä 2 kokonaislukua ja sijoitetaan ne muuttujiin.
 Kutsutaan edellä mainittuja funktioita ja jälkimmäisten funktioiden kohdalla myös tulostetaan funktioiden palautusarvot.
 
+![Kuva ajetusta koodista](imageH1.png)
+
 ## Kotitehtävä2a
 
 Tehtävässä harjoitellaan luokkien ja olioiden käyttöä.
@@ -82,6 +84,8 @@ Student -olio kekomuistiin, smartpointter -oliona
 - Tulostetaan opiskelijan tiedot Gettereiden avulla
 - Olio poistuu tuhoajan avulla
 
+![Kuva ajetusta koodista](imageH2a.png)
+
 ## Kotitehtävä2b
 
 Tässä tehtävässä tutustutaan C++ ohjelmoinnin käsitteeseen vektori ja kuinka sitä käyttäen luodaan ns. oliolista
@@ -110,6 +114,8 @@ Luodaan vektori nimeltä "carList2", lista luodaan kekomuistiin smartpointterina
 - Lisätään oliot "carList2" listaan
 - Haetaan lista carList2 -osoittimesta
 - Tulostetaan kaikkien autojen tiedot for-silmukkaa käyttäen. Käytetään tulostuksessa listan elementtiä 'cars'.
+
+![Kuva ajetusta koodista](imageH2b.png)
 
 ## Kotitehtävä3a
 
@@ -148,6 +154,8 @@ Seuraavaksi luodaan automaanen ItalianChef luokan olio pinomuistiin
 - Annetaan kokin nimi parametrina konstruktorille, jossa myös kutsutaan Chef luokan konstruktoria
 - Kutsutaan Chef luokan funktioita
 - Kutsutaan ItalianChef luokan funktioita
+
+![Kuva ajetusta koodista](imageH3a.png)
 
 ## Kotitehtävä3b
 
