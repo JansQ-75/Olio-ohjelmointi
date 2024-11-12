@@ -111,7 +111,43 @@ Luodaan vektori nimeltä "carList2", lista luodaan kekomuistiin smartpointterina
 - Haetaan lista carList2 -osoittimesta
 - Tulostetaan kaikkien autojen tiedot for-silmukkaa käyttäen. Käytetään tulostuksessa listan elementtiä 'cars'.
 
+## Kotitehtävä3a
 
+Tehtävässä harjoitellaan perintää ja UML-luokkakaavioiden tulkintaa
+
+**Luodaan kantaluokka Chef**
+
+Luodaan Chef luokka, jossa:
+
+Protected jäsenmuuttujana
+- name
+Public metodeina
+- Konstruktori, jolle annetaan parametreina kokin nimi
+- Funktio "makeSalad"
+- Funktio "makeSoup"
+
+**Luodaan aliluokka ItalianChef**
+
+Luodaan ItalianChef luokka, joka perii luokan Chef:
+
+Public metodeina
+- Konstruktori, jolle annetaan parametreina kokin nimi sekä kutsutaan Chef luokan konstruktoria
+- Funktio "getName"
+- Funktio "makePasta"
+
+Lisäksi luokalla on on pääsy Chef luokan Public- ja Protected-jäseniin
+
+**Main -koodi**
+
+Ensin luodaan automaattinen Chef luokan olio pinomuistiin.
+- Annetaan kokin nimi parametrina konstruktorille
+- Kutsutaan luokan julkisia funktioita
+- Konstruktoriin, destruktoriin sekä funktioihin on kaikkiin laitettu tulosteet debuggauksen vuoksi
+
+Seuraavaksi luodaan automaanen ItalianChef luokan olio pinomuistiin
+- Annetaan kokin nimi parametrina konstruktorille, jossa myös kutsutaan Chef luokan konstruktoria
+- Kutsutaan Chef luokan funktioita
+- Kutsutaan ItalianChef luokan funktioita
 
 
 
