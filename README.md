@@ -121,7 +121,7 @@ Luodaan Chef luokka, jossa:
 
 Protected jäsenmuuttujana
 - name
-Public metodeina
+Public jäseninä
 - Konstruktori, jolle annetaan parametreina kokin nimi
 - Funktio "makeSalad"
 - Funktio "makeSoup"
@@ -130,7 +130,7 @@ Public metodeina
 
 Luodaan ItalianChef luokka, joka perii luokan Chef:
 
-Public metodeina
+Public jäseninä
 - Konstruktori, jolle annetaan parametreina kokin nimi sekä kutsutaan Chef luokan konstruktoria
 - Funktio "getName"
 - Funktio "makePasta"
@@ -149,6 +149,34 @@ Seuraavaksi luodaan automaanen ItalianChef luokan olio pinomuistiin
 - Kutsutaan Chef luokan funktioita
 - Kutsutaan ItalianChef luokan funktioita
 
+## Kotitehtävä3b
 
+Tehtävässä harjoitellaan luokkien periytymistä ja metodien ylikirjoittamista.
 
+**Perittävä luokka Animal**
 
+Luodaan luokka Animal
+
+Public jäseninä
+- Konstruktori
+- Funktio "callOut". Tulostaa tekstin "Elain aantelee"
+
+**Perivä luokka Dog**
+
+Luodaan luokka Dog, joka perii luokan Animal. Luokalla on pääsy Animal luokan Public- ja Protected-jäseniin
+
+Public jäseninä
+- Konstruktori
+- Funktio "callOut". Ylikirjoitetaan tulostamaan teksti "Koira haukkuu!"
+
+**Main koodi**
+
+Luodaan Animal luokan olio pointterina kekomuistiin
+- Kutsutaan "callOut" -funktiota
+
+Luodaan Dog luokan olio pointterina kekomuistiin
+- Kutsutaan "callOut" -funktiota, joka on ylikirjoitettu kirjoittamaan eriävä teksti
+
+Poistetaan molemmat oliot lopuksi
+
+![Kuva ajetusta koodista](imageH3b.png)
