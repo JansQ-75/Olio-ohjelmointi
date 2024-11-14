@@ -167,6 +167,7 @@ Luodaan luokka Animal
 
 Public jäseninä
 - Konstruktori
+- Virtual destruktori
 - Funktio "callOut". Tulostaa tekstin "Elain aantelee"
 
 **Perivä luokka Dog**
@@ -175,6 +176,7 @@ Luodaan luokka Dog, joka perii luokan Animal. Luokalla on pääsy Animal luokan 
 
 Public jäseninä
 - Konstruktori
+- Destruktori
 - Funktio "callOut". Ylikirjoitetaan tulostamaan teksti "Koira haukkuu!"
 
 **Main koodi**
