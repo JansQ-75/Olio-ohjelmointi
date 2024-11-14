@@ -7,6 +7,7 @@ class Dog : public Animal                   // perittävänä luokkana Animal. P
 {
 public:
     Dog();
+    ~Dog() override;                         // destruktori. Ylikirjoitettu Animal luokan destruktorista
     virtual void callOut() override;        // ylikirjoittaa Animal luokan callOut -funktion
 };
 

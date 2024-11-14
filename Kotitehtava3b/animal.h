@@ -7,6 +7,7 @@ class Animal
 {
 public:
     Animal();
+    virtual ~Animal();          // destruktori, joka mahdollistaa olioiden kunnollisen poiston myös aliluokan osalta
     virtual void callOut();
 };
 

@@ -2,6 +2,9 @@
 
 Dog::Dog() {}
 
+Dog::~Dog()
+{}
+
 // Ylikirjoittaa Animal luokan callOut -funktion
 void Dog::callOut()
 {
