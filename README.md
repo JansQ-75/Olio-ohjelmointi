@@ -190,3 +190,57 @@ Luodaan Dog luokan olio pointterina kekomuistiin
 Poistetaan molemmat oliot lopuksi
 
 ![Kuva ajetusta koodista](imageH3b.png)
+
+## Kotitehtävä2a
+
+Tehtävässä harjoitellaan vahvaa koostetta ja UML-luokkakaavion tulkintaa.
+Tehtävässä on koosteluokka Car.
+Tehtävässä on Car -luokan olio, joka luo Engine luokan olion sekä 4 Wheel luokan oliota.
+
+**Engine luokka**
+
+Private jäsenmuuttujat:
+- horsepower, displacement
+
+Public jäseninä:
+- konstruktori
+- konstruktori, parametreina hevosvoimat ja moottorintilavuus
+- Getterit jäsenmuuttujille
+- Setterit jäsenmuuttujille
+
+**Wheel luokka**
+
+Private jäsenmuuttujat:
+- size, type
+
+Public jäseninä:
+- konstruktori
+- konstruktori, parametreina rengaskoko ja -tyyppi
+- Getterit jäsenmuuttujille
+- Setterit jäsenmuuttujille
+
+**Car luokka**
+
+Private jäseninä:
+- jäsenmuuttujat brand ja model
+- Engine luokan olio
+- neljä Wheel luokan oliota
+
+Public jäseninä:
+- konstruktori
+- konstruktori, parametreina auton merkki ja malli
+- funktio setEngine() moottorin tietojen asettamiseen
+- funktio setWheels() renkaiden tietojen asettamiseen
+- funktio printDetails() auton tietojen tulostamista varten
+- Getterit jäsenmuuttujille
+- Setterit jäsenmuuttujille
+
+**Main koodi**
+
+Luodaan Car luokan olio, jolle annetaan parametreina auton merkki ja malli.
+
+Kutsutaan setEngine() ja setWheels() funktioita, jolla asetetaan auton moottorin sekä renkaiden tiedot
+
+Kutsutaan printDetails() funktiota, jolla tulostetaan auton tiedot
+
+![Kuva ajetusta koodista](imageH4.png)
