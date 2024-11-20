@@ -244,3 +244,61 @@ Kutsutaan setEngine() ja setWheels() funktioita, jolla asetetaan auton moottorin
 Kutsutaan printDetails() funktiota, jolla tulostetaan auton tiedot
 
 ![Kuva ajetusta koodista](imageH4.png)
+
+# Kotitehtävä5
+
+Tehtävässä kerrataan muistiosoitteeseen ja pointeriin liittyviä asioita, sekä tutustutaan referenssin käyttöön
+
+**ClassB luokka**
+
+Private jäsenenä
+- info
+Public jäseninä
+-Getterit ja Setterit info -muuttujalle
+
+**AssosiationA luokka**
+
+Private jäsenenä:
+- ClassB luokan olio, objectB
+
+Public jäseninä
+- konstruktori, parametrina ClassB luokan olio
+- getBinfo() -funktio, palauttaa objectB:n Getterin arvon
+- setBinfo(string) -funktio, asetetaan objectB:lle Setterin avulla arvo
+
+**AggregationA luokka**
+
+Private jäsenenä
+- referenssi ClassB luokan olioon, &refB
+
+Public jäseninä
+- konstruktori, parametrina ClassB luokan referenssi
+- getBinfo() -funktio, palauttaa objectB:n Getterin arvon
+- setBinfo(string) -funktio, asetetaan objectB:lle Setterin avulla arvo
+
+**main koodi**
+
+Vaihe 1:
+
+- luodaan int muuttujat a ja b, joille asetetaan arvoiksi 5 ja 10
+- luodaan pointer 'myPointer', johon sijoitetaan vuorotellen muuttujien a ja b osoitteet
+- luodaan referenssi 'refA', joka viittaa muuttujaan a, mutta myöhemmin annetaan b muuttujan arvo
+- Havainnollistetaan näiden toimintaa tulostamalla muuttujien, pointerin ja referenssin muistipaikkojen osoitteita sekä arvoja
+
+Vaihe 2:
+
+- luodaan ClassB luokan olio, objB
+- setInfo() funktion avulla asetetaan teksti "Olion B asettama info"
+- luodaan AssosiationA luokan olio objAss, jolla parametrina objB
+- setBinfo() funktion avulla asetetaan teksti "Olion objAss asettama info"
+- tulostetaan olioille asetetut tekstit getinfo() ja getBinfo() funktioiden avulla
+
+Vaihe 3:
+
+- luodaan ClassB luokan referenssi &refB, jolla viitataan ClassB luokan olioon objB
+- luodaan AggregationA luokan olio objAggr, parametrina refB
+- setBinfo() funktion avulla asetetaan teksti "Olion objAggr asettama info"
+- tulostetaan olioille asetetut tekstit getinfo() ja getBinfo() funktioiden avulla
+
+![Kuva ajetusta koodista](imageH5.png)
+
