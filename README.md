@@ -245,7 +245,7 @@ Kutsutaan printDetails() funktiota, jolla tulostetaan auton tiedot
 
 ![Kuva ajetusta koodista](imageH4.png)
 
-# Kotitehtävä5
+## Kotitehtävä5
 
 Tehtävässä kerrataan muistiosoitteeseen ja pointeriin liittyviä asioita, sekä tutustutaan referenssin käyttöön
 
