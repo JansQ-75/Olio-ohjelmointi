@@ -302,3 +302,37 @@ Vaihe 3:
 
 ![Kuva ajetusta koodista](imageH5.png)
 
+## Kotitehtävä6a
+
+Tässä tehtävässä tutustutaan QObjectin tarkoitukseen ja Q_OBJECT makroon.
+Käytetään tapahtuma/sanomajonoa 'signals & slots'.
+.pro -tiedostosta poistetaan rivi 'CONFIG -= qt' ja lisätään rivi 'QT = core'
+
+**MyClass**
+
+Perii QObject luokan ja suorittaa Q_OBJECT makroon
+
+Public jäseninä:
+- Konstruktori, jonka parametrissa mahdollistetaan QObject luokan parent olion käyttäminen
+- raiseMySignal(), funktio signaalin nostamista varten
+- raiseMySignal2(), funktio toisen signaalin nostamista varten
+
+Signaalit:
+- mySignal();
+- mySignal2();
+
+Public slotit:
+- mySlot()
+- mySlot2()
+- mySlot3()
+
+**Main koodissa**
+
+Luodaan MyClass luokalle 2 oliota.
+- Ensimmäinen olio kutsuu mySignal() funktiota
+    - lähettää signaalin sloteille mySlot ja mySlot2
+- Toinen olio kutsuu mySignal2() funktiota
+    - lähettää signaalin mySlot3:lle
+- Sloteista tulostetaan debuggaus viestit
+
+![Kuva ajetusta koodista](imageH6a.png)

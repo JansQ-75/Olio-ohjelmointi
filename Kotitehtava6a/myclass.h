@@ -12,7 +12,7 @@ class MyClass : public QObject
     Q_OBJECT    // suoritetaan Q_OBJECT makro ts. esikäsittelijä ohje
 
 public:
-    MyClass(QObject* parent = nullptr);     // konstruktori, jolla parametrissa mahdollistetaan QObject luokan parent olion käyttäminen
+    MyClass(QObject* parent = nullptr);     // konstruktori, jonka parametrissa mahdollistetaan QObject luokan parent olion käyttäminen
     void raiseMySignal();                   // funktio signaalin nostamista varten
     void raiseMySignal2();                  // funktio toisen signaalin nostamista varten
 
