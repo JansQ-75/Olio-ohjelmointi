@@ -10,8 +10,5 @@ int main(int argc, char *argv[])
     objEClass.startToWait();    // kutsutaan funktiota startToWait()
 
     return a.exec();
-    // return 0;
-
-
 
 }

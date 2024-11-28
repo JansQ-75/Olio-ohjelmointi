@@ -17,14 +17,14 @@ void ExampleClass::startToWait()
 {
     QThread::msleep(1000);      // sleep toiminto, joka viivästyttää suoritusta 1s
     emit readyToSay();          // sytyttää signaalin 'readyToSay'
-    QThread::msleep(2000);      // sleep toiminto, joka viivästyttää suoritusta 1s
-    emit readyToStop();         // sytyttää signaalin 'readyToStop'
 }
 
 // slotti kytkettynä signaaliin 'readyToSay'
 void ExampleClass::sayHelloSlot()
 {
     qDebug("Terve");            // debuggaus tuloste
+    QThread::msleep(2000);      // sleep toiminto, joka viivästyttää suoritusta 1s
+    emit readyToStop();         // sytyttää signaalin 'readyToStop'
 }
 
 // slotti kytkettynä signaaliin 'readyToStop'

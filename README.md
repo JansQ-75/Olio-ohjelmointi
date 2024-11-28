@@ -362,3 +362,5 @@ Public slotit:
 Luodaan ExampleClass luokalle olio
 - Kutsutaan startToWait() funktiota
 - Sloteista tulostuu debuggaus viestit viiveiden jälkeen
+
+![Kuva ajetusta koodista](imageH6b.png)
