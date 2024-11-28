@@ -308,18 +308,18 @@ Tässä tehtävässä tutustutaan QObjectin tarkoitukseen ja Q_OBJECT makroon.
 Käytetään tapahtuma/sanomajonoa 'signals & slots'.
 .pro -tiedostosta poistetaan rivi 'CONFIG -= qt' ja lisätään rivi 'QT = core'
 
-**MyClass**
+**MyClass luokka**
 
 Perii QObject luokan ja suorittaa Q_OBJECT makroon
 
 Public jäseninä:
 - Konstruktori, jonka parametrissa mahdollistetaan QObject luokan parent olion käyttäminen
-- raiseMySignal(), funktio signaalin nostamista varten
-- raiseMySignal2(), funktio toisen signaalin nostamista varten
+- raiseMySignal(), funktio signaalin sytyttämistä varten
+- raiseMySignal2(), funktio toisen signaalin sytyttämistä varten
 
 Signaalit:
-- mySignal();
-- mySignal2();
+- mySignal()
+- mySignal2()
 
 Public slotit:
 - mySlot()
@@ -336,3 +336,29 @@ Luodaan MyClass luokalle 2 oliota.
 - Sloteista tulostetaan debuggaus viestit
 
 ![Kuva ajetusta koodista](imageH6a.png)
+
+## Kotitehtävä6b
+
+diibadaaba
+
+**ExampleClass luokka**
+
+Perii QObject luokan ja suorittaa Q_OBJECT makroon
+
+Public jäseninä:
+- Konstruktori, jonka parametrissa mahdollistetaan QObject luokan parent olion käyttäminen
+- startToWait() funktio, joka 1s viiveen jälkeen sytyttää signaalin 'readyToSay'
+
+Signaalit:
+- readyToSay()
+- readyToStop()
+
+Public slotit:
+- sayHelloSlot(), jossa tulostetaan debuggaus teksti ja 2s viiveen jälkeen sytytetään signaali 'readyToStop'
+- void sayGoodbyeSlot(), tulostaa debuggaus tekstin
+
+**Main koodissa**
+
+Luodaan ExampleClass luokalle olio
+- Kutsutaan startToWait() funktiota
+- Sloteista tulostuu debuggaus viestit viiveiden jälkeen
