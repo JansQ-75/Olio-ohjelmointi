@@ -397,3 +397,5 @@ Reset painikkeen clicked() slot
 - kirjoitetetaan counterin arvo lineEdit:n ja label:name
 
 ![Kuva lahtötilanteesta](imageH7a.png)
+
+![Kuva kolmen klikkauksen jälkeen](imageH7b.png)
