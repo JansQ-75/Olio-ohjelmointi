@@ -364,3 +364,36 @@ Luodaan ExampleClass luokalle olio
 - Sloteista tulostuu debuggaus viestit viiveiden jälkeen
 
 ![Kuva ajetusta koodista](imageH6b.png)
+
+## Kotitehtävä7
+
+Tässä tehtävässä harjoitellaan QtWidget-sovelluksen luontia.
+
+- Luodaan sovellus, jossa painiketta klikkaamalla kasvatetaan counterin arvoa yhdellä.
+- Counterin arvo tulostetaan lineEdit:n sekä label:n.
+- Reset painikkeella counterin arvo voidaan nollata, kuten myös lineEdit:n ja label:n tekstit.
+
+**MainWindow.h**
+
+Lisätty valmiiseen pohjaan:
+
+private slotit:
+- count painikkeelle
+- reset painikkeelle
+
+private jäsenet:
+- counter muuttuja, jolle annetaan arvoksi 0
+
+**MainWindow.cpp**
+
+Count painikkeen clicked() slot
+- counterin arvoa lisätään yhdellä
+- counterin arvo muutetaan QString:ksi 
+- kirjoitetetaan counterin arvo lineEdit:n ja label:name
+
+Reset painikkeen clicked() slot
+- counterin arvo nollataan
+- counterin arvo muutetaan QString:ksi 
+- kirjoitetetaan counterin arvo lineEdit:n ja label:name
+
+![Kuva lahtötilanteesta](imageH7a.png)
